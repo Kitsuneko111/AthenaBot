@@ -23,9 +23,22 @@ Maybe sometime it will, once the basic Discord framework is down.
 - 0.2.0 - RASA got involved, I thought this was simpler than DialogFlow but I was wrong
 - 0.2.1 - Changed to DialogFlow and now it is running basic commands smoothly.
 
+### Differences between significant versions
+```diff
+> 0.0 - 0.1
++ added a nicer UI
+- removed Python base
+
+> 0.1 - 0.2
++ added actual AI and dialog recognition
+- removed basic Q&A flow
+```
+
 ## How do I use Athena?
+
 ### How do I get Athena?
 Athena is currently under development, when it can do more it will be available for invites
+
 ### What can Athena do?
 ✔ Respond to a wake up call (e.g. `Athena, are you there?`)
 
@@ -34,6 +47,7 @@ Athena is currently under development, when it can do more it will be available 
 ✔ Ping another user [Current WIP]
 
 ✔ Confirm Actions [Current WIP]
+
 ### How does Athena Work in my server?
 1. Wake Athena up by sending a message with `Athena` somewhere in it (e.g. `Hello Athena` or `Athena what is your ping?`)
 > Note: Athena will only respond to messages it understands, but it will be awake
