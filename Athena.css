@@ -1,7 +1,7 @@
 body{
   background-color: #292c30;
-  color: #14bdff;
-  font-family: 'comic sans ms', impact, sans-serif;
+  color: #15bdff;
+  font-family: "roboto", sans-serif;
   font-weight: bold;
   text-decoration-color: #424649;
 }
@@ -69,7 +69,7 @@ h6{
 
 p{
   padding-left: inherit;
-  font-size: medium;
+  font-size: larger;
   text-decoration: none;
 }
 sup{
@@ -91,9 +91,14 @@ a:link{
 
 a:visited{
   text-decoration-style: solid;
-  color: #AACD20;
+  color: #CACD40;
 }
-
+a.normal:visited{
+  color:#EDED00
+}
+a.normal:hover{
+  color:#CDCD20
+}
 a:hover{
   text-decoration-style: solid;
   color: #CDCD20;
@@ -113,4 +118,12 @@ h3.status{
 }
 p.status{
   padding-left: 15px;
+}
+
+li > sup{
+  font-size: small;
+}
+
+body#projects ul{
+  font-size: large;
 }
